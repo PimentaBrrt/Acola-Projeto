@@ -67,11 +67,11 @@ header nav li{
 }
 
 .contato {
-   background-color: rgba(66, 66, 66, 0.682); 
+   background-color: rgba(66, 66, 66, 0.403); 
     color:rgb(255, 255, 255);
     padding: 10px 40px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 200;
     border: 0px;
     border-radius: 30px;
 }
@@ -80,7 +80,7 @@ header nav li{
 
 /* Primeira pagina*/
 
-h1 {
+.h1-titulo1 {
     font-weight:200;
     font-size: 30pt;
     margin: 0;
@@ -92,6 +92,7 @@ h1 {
     background-color: rgba(85, 84, 84, 0.73); 
     padding: 0.5rem 1rem; 
     border-radius: 5px; 
+    text-align: center;
   }
 
 
