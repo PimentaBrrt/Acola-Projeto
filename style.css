@@ -1,6 +1,57 @@
-body {
-    font-family: Roboto;
-    font-size: 11pt;
-    margin: 0px;
-    padding: 0px;
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "roboto"
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+/* Estilo do meu cabeçalho */
+
+header{
+    padding: 40px 4%;
+    
+}
+
+header > .interface{
+
+display: flex;
+align-items: center;
+justify-content: space-between ;
+}
+
+header a{
+    color:#5c5c5c;
+    display: inline-block;
+    transition: .2s;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0px 30px;
+    text-decoration: none;
 }
