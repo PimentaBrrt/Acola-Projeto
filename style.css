@@ -6,8 +6,10 @@
 }
 
 body{
-    background-color: black;
+    background-image:url("fundo.jpeg");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .interface{
@@ -20,11 +22,19 @@ body{
     display: flex;
 }
 
+
+
 /* Estilo do meu cabeçalho */
 
+
 header{
-    padding: 40px 4%;
-    
+ background-color: rgba(0, 0, 0, 0.545);
+position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+   
 }
 
 header > .interface{
@@ -34,15 +44,15 @@ align-items: center;
 justify-content: space-between ;
 }
 
-header a{
-    color:#5c5c5c;
+header a{ 
+    color:gray;
     display: inline-block;
     transition: .2s;
     text-decoration: none;
 }
 
 header a:hover{
-    color: #fff;
+    color: #ffff;
     transform: scale(1.05);
 }
 
@@ -52,6 +62,36 @@ header nav ul{
 
 header nav li{
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 10px;
     text-decoration: none;
 }
+
+.contato {
+   background-color: rgba(66, 66, 66, 0.682); 
+    color:rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 30px;
+}
+
+
+
+/* Primeira pagina*/
+
+h1 {
+    font-weight:200;
+    font-size: 30pt;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    background-color: rgba(85, 84, 84, 0.73); 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+  }
+
+
