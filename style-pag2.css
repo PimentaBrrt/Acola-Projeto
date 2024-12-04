@@ -1,0 +1,76 @@
+.h2-caixa {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.h3-caixa {
+    position: relative;
+    text-align: left;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.planos {
+    background-color: #cdcdcd;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.secao-rodape {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.caixa-borda {
+    border: 5px, #06435E, solid;
+}
+
+.caixa-planos {
+    position: relative;
+    margin-right: 6%;
+    margin-bottom: 25px;
+    overflow: hidden
+}
+
+.caixa-planos::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+    background-color: #06435E99;
+    border-top-right-radius: 150px;
+}
+
+.caixa-texto-gamb {
+    position: relative;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.caixa-texto {
+    position: relative;
+    font-weight: 300;
+    text-align: left;
+}
+
+.botao {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #d9d9d978;
+    padding: 10px;
+    border-radius: 15px;
+}   
+
+.espacamento-li {
+    padding-bottom: 7px;
+}
