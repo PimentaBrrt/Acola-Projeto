@@ -17,7 +17,7 @@ img {
 }
 
 .interface{
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
     
 }
@@ -71,14 +71,15 @@ header nav li{
 }
 
 .logo {
+    min-width: 130px;
     max-width: 40%;
-    padding: 5px;
+    padding: 12px;
 }
 
 .contato {
    background-color: rgba(66, 66, 66, 0.403); 
     color:rgb(255, 255, 255);
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 200;
     border: 0px;
