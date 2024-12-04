@@ -70,6 +70,11 @@ header nav li{
     text-decoration: none;
 }
 
+.logo {
+    max-width: 40%;
+    padding: 5px;
+}
+
 .contato {
    background-color: rgba(66, 66, 66, 0.403); 
     color:rgb(255, 255, 255);
@@ -99,5 +104,3 @@ header nav li{
     border-radius: 5px; 
     text-align: center;
   }
-
-

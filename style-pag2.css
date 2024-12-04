@@ -31,7 +31,8 @@
     border: 5px, #06435E, solid;
     position: relative;
     padding: 15px;
-    overflow: hidden
+    overflow: hidden;
+    min-height: 350px;
 }
 
 .caixa-planos::before {
