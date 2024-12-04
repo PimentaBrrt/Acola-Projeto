@@ -1,0 +1,103 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "roboto"
+}
+
+body{
+    background-image:url("imgs/fundo.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/* Estilo do meu cabeçalho */
+
+
+header{
+ background-color: rgba(0, 0, 0, 0.545);
+position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+   
+}
+
+header > .interface{
+
+display: flex;
+align-items: center;
+justify-content: space-between ;
+}
+
+header a{ 
+    color:gray;
+    display: inline-block;
+    transition: .2s;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #ffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.contato {
+   background-color: rgba(66, 66, 66, 0.403); 
+    color:rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 200;
+    border: 0px;
+    border-radius: 30px;
+    margin-left: -15%;
+}
+
+
+
+/* Primeira pagina*/
+
+.h1-titulo1 {
+    font-weight:200;
+    font-size: 30pt;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    background-color: rgba(85, 84, 84, 0.73); 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+

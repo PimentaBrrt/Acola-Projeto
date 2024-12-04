@@ -16,25 +16,21 @@
 }
 
 .planos {
-    background-color: #cdcdcd;
+    background-color: #d6d5d5;
     background-size: cover;
     color: #ffffff;
 }
 
 .secao-rodape {
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 50px;
-}
-
-.caixa-borda {
-    border: 5px, #06435E, solid;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .caixa-planos {
+    border: 5px, #06435E, solid;
     position: relative;
-    margin-right: 6%;
-    margin-bottom: 25px;
+    padding: 15px;
     overflow: hidden
 }
 
@@ -73,4 +69,8 @@
 
 .espacamento-li {
     padding-bottom: 7px;
+}
+
+.margem {
+    margin: 0px, auto;
 }
