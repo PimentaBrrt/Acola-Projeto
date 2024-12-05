@@ -7,9 +7,10 @@
 
 body{
     background-image:url("imgs/fundo.jpeg");
-    height: 100vh;
+    height: 1080px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #d6d5d5
 }
 
 img {
@@ -32,7 +33,7 @@ img {
 
 
 header{
- background-color: rgba(0, 0, 0, 0.545);
+ background-color: rgba(0, 0, 0, 0.658);
 position: fixed; 
   top: 0; 
   left: 0; 
@@ -49,7 +50,7 @@ justify-content: space-between ;
 }
 
 header a{ 
-    color:gray;
+    color: #ffffffc0;
     display: inline-block;
     transition: .2s;
     text-decoration: none;
@@ -76,8 +77,13 @@ header nav li{
     padding: 12px;
 }
 
+.espac {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
 .contato {
-   background-color: rgba(66, 66, 66, 0.403); 
+    background-color: rgba(66, 66, 66, 0.403); 
     color:rgb(255, 255, 255);
     padding: 10px 30px;
     font-size: 18px;
