@@ -26,7 +26,9 @@
     position: relative;
     padding: 50px;
 	background-color: #06435E99;
-	border: 5px, #06435E, solid;
+	border-width: 5px;
+	border-color: #06435E;
+	border-style: solid;
 	border-radius: 8px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	min-height: 625px;

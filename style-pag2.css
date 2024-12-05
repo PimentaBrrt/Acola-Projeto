@@ -43,7 +43,9 @@
 }
 
 .caixa-planos {
-    border: 5px, #06435E, solid;
+    border-width: 5px;
+    border-color: #06435E;
+    border-style: solid;
     position: relative;
     padding: 15px;
     overflow: hidden;
